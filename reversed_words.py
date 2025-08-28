@@ -6,3 +6,6 @@ def reverse_words(s):
     return sent
 
 reverse_words('Your like did fshd')
+
+num = int(input('sdfbn '))
+['2', '3']
