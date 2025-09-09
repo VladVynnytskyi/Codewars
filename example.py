@@ -1,3 +1,3 @@
-name = 'Vlad'
-res = "Hello," + name + "how are you doing today?"
-print(res)
+nums_1 = [1, 2]
+nums_2 = [1, 2]
+print(nums_1 == nums_2)
