@@ -18,3 +18,4 @@ def xo(s):
     count_o = s.count('o')
     count_x = s.count('x')
     return count_o == count_x
+
