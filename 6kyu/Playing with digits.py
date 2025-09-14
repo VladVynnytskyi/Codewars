@@ -9,3 +9,14 @@ def dig_pow(n, p):
         return sum_result / n
     else:
         return -1
+    
+
+def dig_pow(n: int, p: int) -> int:
+    s = str(n)
+    total = 0
+    for i, ch in enumerate(s):
+        digit = int(ch)
+        total += digit ** (p + i)
+    if total % n == 0:
+        return total // n
+    return -1
