@@ -20,3 +20,4 @@ def dig_pow(n: int, p: int) -> int:
     if total % n == 0:
         return total // n
     return -1
+
