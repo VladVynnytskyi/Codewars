@@ -22,8 +22,3 @@ def binary_search(array, number):
             return middle_2
         
 
-
-def binary_search(array, number):
-    index = 0
-    while number:
-        
