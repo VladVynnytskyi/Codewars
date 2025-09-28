@@ -19,4 +19,17 @@ def get_nth(node, index):
         
     raise Exception("Index out of range")
 
-  
+#or 
+
+
+
+def get_nth(node, index):
+    v = -1
+    n = node
+    while n:
+        v += 1
+        if v == index:
+        	return n
+        n = n.next
+    
+    raise ValueError
